@@ -1,0 +1,9 @@
+<div class="block-title" data-bind="afterRender: doAfterRender">
+    <strong>
+        Test template render:
+        <span data-bind="click: getCat">Click to fetch categories.</span>
+    </strong>
+    <ul data-bind="foreach: catList()[0]">
+        <li data-bind="text: $data"></li>
+    </ul>
+</div>

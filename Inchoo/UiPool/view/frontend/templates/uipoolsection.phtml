@@ -1,0 +1,16 @@
+<div class="ui-pool-section"data-bind="scope: 'tamaris'">
+    <p data-bind="text: uipoolsection().message"></p>
+</div>
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_Ui/js/core/app": {
+                "components": {
+                    "tamaris": {
+                        "component": "Inchoo_UiPool/js/uipoolsection"
+                    }
+                }
+            }
+        }
+    }
+</script>
