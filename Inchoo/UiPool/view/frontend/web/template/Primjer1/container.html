@@ -1,0 +1,23 @@
+<div class="box">
+    <ul>
+        <li>
+            <span>Namespace:</span>
+            <strong><span data-bind="text: ns"></span></strong>
+        </li>
+        <li>
+            <span>Index:</span>
+            <strong><span data-bind="text: index"></span></strong>
+        </li>
+        <li>
+            <span>Naziv:</span>
+            <strong><span data-bind="text: name"></span></strong>
+        </li>
+        <li data-bind="if: elems().length">
+                <ul>
+                    <each args="elems">
+                        <render />
+                    </each>
+                </ul>
+        </li>
+    </ul>
+</div>

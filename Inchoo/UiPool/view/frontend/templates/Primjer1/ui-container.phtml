@@ -1,0 +1,149 @@
+<!-- <h2>UI komponente: Parent/Child relacije</h2> -->
+
+<!-- <script type="text/x-magento-init">
+{
+    "*": {
+        "Magento_Ui/js/core/app": {
+            "components": {
+                "myUiComponent": {
+                    "component": "uiComponent",
+                    "template": "Inchoo_UiPool/Primjer1/container"
+                }
+            }
+        }
+    }
+}
+</script>
+
+<div data-bind="scope: 'myUiComponent'">
+    <div data-bind="template: getTemplate()"></div>
+</div> -->
+
+<!-- <script type="text/x-magento-init">
+{
+    "*": {
+        "Magento_Ui/js/core/app": {
+            "components": {
+                "myUiComponent": {
+                    "component": "uiComponent",
+                    "template": "Inchoo_UiPool/Primjer1/container"
+                },
+                "myUiComponent2": {
+                    "component": "uiComponent",
+                    "template": "Inchoo_UiPool/Primjer1/container",
+                    "children": {
+                        "myChildUiComponent": {
+                            "component": "uiComponent",
+                            "template": "Inchoo_UiPool/Primjer1/container",
+                            "children": {
+                                "myInnerChildUiComponent": {
+                                    "component": "uiComponent",
+                                    "template": "Inchoo_UiPool/Primjer1/container"
+                                }
+                            }
+                        },
+                        "myChildUiComponent2": {
+                            "component": "uiComponent",
+                            "template": "Inchoo_UiPool/Primjer1/container"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+</script> 
+
+<div data-bind="scope: 'myUiComponent2'">
+    <div data-bind="template: getTemplate()"></div>
+</div> -->
+
+
+<!-- <script type="text/x-magento-init">
+{
+    "*": {
+        "Magento_Ui/js/core/app": {
+            "components": {
+                "myUiComponent2": {
+                    "component": "uiComponent",
+                    "template": "Inchoo_UiPool/Primjer1/container-specific-group",
+                    "children": {
+                        "myChildUiComponent": {
+                            "component": "uiComponent",
+                            "template": "Inchoo_UiPool/Primjer1/container",
+                            "displayArea": "groupA"
+                        },
+                        "myChildUiComponent2": {
+                            "component": "uiComponent",
+                            "template": "Inchoo_UiPool/Primjer1/container",
+                            "displayArea": "groupA"
+                        },
+                        "myChildUiComponent3": {
+                            "component": "uiComponent",
+                            "template": "Inchoo_UiPool/Primjer1/container",
+                            "displayArea": "groupB"
+                        },
+                        "myChildUiComponent4": {
+                            "component": "uiComponent",
+                            "template": "Inchoo_UiPool/Primjer1/container",
+                            "displayArea": "groupB"
+                        }
+                    }
+                    }
+                }
+            }
+        }
+    }
+</script> 
+
+<div data-bind="scope: 'myUiComponent2'">
+    <div data-bind="template: getTemplate()"></div>
+</div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style type="text/css">
+
+        .box {
+            margin-bottom: 6px;
+            border: 3px solid green;
+        }
+
+        .box ul {
+            list-style-type: none;
+            padding: 25px;
+            margin: 0;
+        }
+
+        .box li {
+            margin: 0;
+        }
+
+        .box .box {
+            border: 3px solid red;
+        }
+
+        .box .box .box {
+            border: 3px solid blue;
+        }
+</style>

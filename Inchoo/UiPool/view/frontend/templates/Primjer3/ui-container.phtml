@@ -1,0 +1,24 @@
+<script type="text/x-magento-init">
+{
+    "*": {
+        "Magento_Ui/js/core/app": {
+            "components": {
+                "increment": {
+                    "component": "Inchoo_UiPool/js/Primjer3/increment",
+                    "template": "Inchoo_UiPool/Primjer3/button",
+                    "children": {
+                      "display": {
+                        "component": "Inchoo_UiPool/js/Primjer3/display",
+                        "template": "Inchoo_UiPool/Primjer3/display"
+                      }
+                    }
+                }
+            }
+        }
+    }
+}
+</script>
+
+<div data-bind="scope: 'increment'">
+    <!-- ko template: getTemplate() --> <!-- /ko --> 
+</div>

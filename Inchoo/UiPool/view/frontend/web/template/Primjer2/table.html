@@ -1,0 +1,13 @@
+<table data-bind="foreach: items">
+    <th>
+        <td>Količina</td>
+        <td>Cijena Pojedinačno</td>
+        <td>Ukupno Cijena</td>
+    </th>
+    <tr>
+        <td data-bind="text: name"></td>
+        <td data-bind="text: qty"></td>
+        <td data-bind="text: price"></td>
+        <td data-bind="text: $parent.rowPrice($data)"></td>
+    </tr>
+</table>
